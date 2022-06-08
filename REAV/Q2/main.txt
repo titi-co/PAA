@@ -1,0 +1,10 @@
+Problema do Conjunto independente e problema do empacotamento de conjuntos
+
+Dado um problema de conjunto independente num grafo(V, A), cria uma colecao de C de conjuntos, 
+onde para cada vertice v pertencente a V existe um conjunto Sv que pertence a C que contem todas as arestas adjacentes a v
+Cada conjunto em C corresponde a um conjunto de vertices que nenhuma delas tem uma aresta em comum.
+
+Dado um problema de empacotamento de conjuntos numa colecao C, cria um grafo G(V, A) onde para todo conjunto S pertencente a C
+existe um vertice vS pertencente a V, e uma aresta entre vS1 e vS2 se os conjuntos S1 e S2 se interceptam. 
+Agora, cada conjunto de vertices independentes em G corresponde a um conjunto de conjuntos de C em que nenhuma delas se interceptam.
+

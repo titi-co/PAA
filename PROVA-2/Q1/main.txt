@@ -1,0 +1,16 @@
+Para provar que um problema é da classe NP-Completo:
+
+    Se um problema I é NP-Completo e J esta em NP, e I < J, J tambem NP-Completo.
+    Se prova que um problema é NP-Completo e que ele é mais facil que outros que tambem devem ser NP-Completos.
+
+    Por exemplo:
+        O ciclo Hamiltoniano é conhecido por ser NP-Completo.
+        Por redução, dizemos que um algoritmo A é mais "facil" que B (A<B), se podemos solucionar um problema A que usa algumas chamadas para uma subrotina de B.
+        Dessa forma, se A < B e B é solucionado em tempo polinomial, A também é.
+
+        Sendo uma solucao para Ciclos Hamiltonianos que usa Caminho mais longo como subrotina, podemos concluir então que o caminho mais longo também é NP-Completo.
+
+
+
+
+

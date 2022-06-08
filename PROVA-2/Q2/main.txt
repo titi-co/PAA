@@ -1,0 +1,17 @@
+a) (i) Sim
+Sendo uma colecao de disciplinas em um grafo. O numero maximo de cliques é o numero de vertices, considerando que tenhamos arestas conectando todo par de vertices. Um grafo completo.
+O caminho critico entao é sempre menor ou igual ao numero de cliques.
+O caminho critico pode ser igual ao numero de cliques se possuirmos uma sequencia de pre-requisitos:
+    0->1->2->3...
+O caminho critico é menor, caso tenhamos outras disciplinas sem requisitos:
+    0->1->2->3
+                    F
+    4->
+    Sendo que 1 nao possui pre requisitos
+
+b) (ii) Não
+No caso do caminho critico ser uma sequencia de pre requisitos, o caminho critico é maior do que o conjunto independente, ja que o caminho critico perccore todos os vertices e o conjunto independente quebra em adjascencias.
+Ou seja, nesse caso, o conjunto independente é pelo menos metade do numero de vertices.
+
+c) (ii) Não
+Considerando a justificativa da alternativa A, percebe-se que o numero de cliques nao pode ser menor do que o caminho critico, sendo sempre maior ou igual.
